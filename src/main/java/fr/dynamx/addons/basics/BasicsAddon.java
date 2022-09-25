@@ -76,6 +76,10 @@ public class BasicsAddon {
                 }
             }
         };
+        System.out.println(keysItem);
+        System.out.println(keysItem.getClass());
+        System.out.println(DynamXItemRegistry.objectTab);
+        System.out.println(keysItem.getCreativeTab());
         keysItem.setCreativeTab(DynamXItemRegistry.objectTab);
         ItemObject<?> info = (ItemObject<?>) keysItem.getInfo();
         BasicsItemInfo bas = new BasicsItemInfo(info);
